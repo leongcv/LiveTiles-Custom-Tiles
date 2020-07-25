@@ -21,6 +21,8 @@ This is a custom tile to display list of FAQs in accordions.
 4. **List Name** - Name of the SharePoint list
 5. **Sort by (Column name)** - _(Optional)_ Name of the list column to sort in ascending order
 
+![Screenshot of Custom Configuration](/FAQs%20Accordion/screenshot-custom-config.png)
+
 ## Importing the Custom Tile
 
 The provided `.tgz` file is an exported tile. To import it:
@@ -28,5 +30,5 @@ The provided `.tgz` file is an exported tile. To import it:
 1. Open the LiveTiles Design Home page (`/LiveTilesDesign/Designer.aspx#route=/Home` from your site collection)
 2. Click "Import Page"
 3. Click "Upload"
-4. In the open file dialog, select the `leongcv.faqs-accordion-tile-1.0.0.tgz` file
+4. In the open file dialog, select the [leongcv.faqs-accordion-1.0.0.tgz](/FAQs%20Accordion/dist/) file
 5. Confirm with "Import"
