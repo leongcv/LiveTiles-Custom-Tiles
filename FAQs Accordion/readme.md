@@ -2,6 +2,8 @@
 
 This is a custom tile to display list of FAQs in accordions.
 
+![Screenshot of FAQs Accordion](/FAQs%20Accordion/screenshot-faqs-accordion.png)
+
 ## Pre-requisites
 
 1. Create a new list with at least 2 columns with the following column names:
