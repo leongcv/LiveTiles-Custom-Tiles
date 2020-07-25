@@ -1,0 +1,64 @@
+// @acc_bg_color: #cae6ff;
+// @acc_hover_color: #93cdff;
+// @acc_text_color: #444444;
+@contentpanel_bg_color: #f5f5f5;
+
+#@{uniqueId} {
+    text-align: left;
+
+    .accordion {
+        background-color: @acc_bg_color;
+        color: @acc_text_color;
+        cursor: pointer;
+        padding: 20px 62px 20px 20px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+        position: relative;
+
+        .lt-chevron-icon {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -moz-transform:    translateY(-50%);
+            -ms-transform:     translateY(-50%);
+            -o-transform:      translateY(-50%);
+            transform:         translateY(-50%);
+            width: 22px;
+            height: 22px;
+
+            &>svg {
+                transform: rotate(270deg);
+            }
+        }
+
+        &.active {
+            .lt-chevron-icon>svg {
+                transform: rotate(90deg);
+            }
+        }
+        
+    }
+
+    .active, .accordion:hover {
+        background-color: @acc_hover_color;
+    }
+
+    .ctnPanel {
+        padding: 0 20px;
+        background-color: @contentpanel_bg_color;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out, padding 0.2s ease-out;
+        margin-bottom: 12px;
+    }
+
+    .active + .ctnPanel {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
