@@ -1,6 +1,6 @@
 # LiveTiles Custom Tile: FAQs Accordion
 
-This is a custom tile to display list of FAQs in accordions.
+This is a custom tile to display a list of FAQ accordions.
 
 ![Screenshot of FAQs Accordion](/FAQs%20Accordion/screenshot-faqs-accordion.png)
 
