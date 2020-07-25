@@ -16,7 +16,7 @@ This is a custom tile to display list of FAQs in accordions.
 ## Custom Configurations
 
 1. **Accordion Background Color** - Background color of the question panel
-2. **Accordion Hover Color** - Background color of the question panel when moused over
+2. **Accordion Hover Color** - Background color of the question panel when mouse over
 3. **Accordion Text Color** - Text color of the text in question panel
 4. **List Name** - Name of the SharePoint list
 5. **Sort by (Column name)** - _(Optional)_ Name of the list column to sort in ascending order
